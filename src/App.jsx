@@ -3,7 +3,7 @@ import Header from "./Component/Header";
 import Footer from "./Component/Footer";
 import Form from "./Component/Form";
 import Error from "./Component/Error";
-import List from "./Component/List";
+// import List from "./Component/List";
 
 const cylinderFactors = {
   D: 0.16,
@@ -69,7 +69,7 @@ function App() {
           result={result} // ส่งผลลัพธ์ไปยัง Form
         />
       </div>
-      <List />
+      {/* <List /> */}
       <Error error={error} />
       <Footer />
     </div>
