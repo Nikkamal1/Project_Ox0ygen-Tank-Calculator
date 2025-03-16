@@ -55,7 +55,38 @@ const Form = ({ setCylinder, setOxygenRate, setPressure, handleCalculate, result
               </p>
             </div>
           )}
+           {/* รายละเอียดขนาดถัง */}
+        <div className="mt-6 p-4 bg-white rounded-lg border border-white">
+          <h3 className="text-lg font-bold mb-4">รายละเอียดขนาดถัง</h3>
+          <table className="table-auto w-full text-left">
+            <thead>
+              <tr>
+                <th className="border-b-2 border-gray-300 pb-2">ขนาดถัง</th>
+                <th className="border-b-2 border-gray-300 pb-2">Conversion Factor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="py-2 border-b">D cylinder</td>
+                <td className="py-2 border-b">0.16</td>
+              </tr>
+              <tr>
+                <td className="py-2 border-b">E cylinder</td>
+                <td className="py-2 border-b">0.28</td>
+              </tr>
+              <tr>
+                <td className="py-2 border-b">M cylinder</td>
+                <td className="py-2 border-b">1.56</td>
+              </tr>
+              <tr>
+                <td className="py-2">H cylinder</td>
+                <td className="py-2">3.14</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+        </div>
+        
       </div>
     );
   };
