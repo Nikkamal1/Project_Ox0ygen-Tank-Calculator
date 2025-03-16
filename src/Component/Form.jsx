@@ -1,13 +1,10 @@
 const Form = ({ setCylinder, setOxygenRate, setPressure, handleCalculate, result }) => {
     return (
-      <div className="font-sukhumvit">
+      <div className="font-sukhumvit w-full justify-center items-center flex flex-col">
        <div className="bg-white text-black p-4 text-center rounded-lg mb-6 inline-block whitespace-nowrap overflow-hidden">
   <h1 className="text-xl font-semibold">คำนวณเวลาการใช้งานถังออกซิเจน</h1>
 </div>
-
-
-
-        <div className="w-full max-w-full md:max-w-md bg-white p-6 rounded-lg shadow-md mx-auto">
+        <div className="w-full max-w-md bg-white p-6 rounded-lg shadow-md">
           {/* เลือกขนาดถัง */}
           <label className="block  text-gray-700 text-lg mb-2">ขนาดถัง</label>
           <select
