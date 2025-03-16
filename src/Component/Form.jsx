@@ -8,7 +8,7 @@ const Form = ({ setCylinder, setOxygenRate, setPressure, handleCalculate, result
           {/* เลือกขนาดถัง */}
           <label className="block  text-gray-700 text-lg mb-2">ขนาดถัง</label>
           <select
-            className="w-full p-3 border rounded mb-6 text-xl"
+            className="w-full p-3 border rounded mb-6 text-lg"
             onChange={(e) => setCylinder(e.target.value)}
           >
             <option className="" value="">เลือกขนาดถัง</option>
