@@ -6,7 +6,7 @@ const Form = ({ setCylinder, setOxygenRate, setPressure, handleCalculate, result
         </div>
         <div className="w-full max-w-full md:max-w-md bg-white p-6 rounded-lg shadow-md mx-auto">
           {/* เลือกขนาดถัง */}
-          <label className="block text-black text-lx mb-2">ขนาดถัง</label>
+          <label className="block text-black text-xl mb-2">ขนาดถัง</label>
           <select
             className="w-full p-3 border rounded mb-6 text-xl"
             onChange={(e) => setCylinder(e.target.value)}
