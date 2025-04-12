@@ -58,18 +58,17 @@ function App() {
   };
 
   return (
-    <div className="max-h-screen flex flex-col">
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <div className="flex-grow flex items-center justify-center bg-white">
+      <div className="flex-grow flex items-center justify-center bg-[url('/img/Oxygen.png')] bg-cover bg-center bg-no-repeat px-4 py-8">
         <Form
           setCylinder={setCylinder}
           setOxygenRate={setOxygenRate}
           setPressure={setPressure}
           handleCalculate={handleCalculate}
-          result={result} // ส่งผลลัพธ์ไปยัง Form
+          result={result}
         />
       </div>
-      {/* <List /> */}
       <Error error={error} />
       <Footer />
     </div>
