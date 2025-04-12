@@ -59,8 +59,8 @@ const Form = ({ setCylinder, setOxygenRate, setPressure, handleCalculate, result
         )}
 
         {/* ภาพรายละเอียดขนาดถัง */}
-        <div className="mt-2 h-64 rounded-lg  bg-[url('/img/c7ff8faa-7bcf-47dc-a0b0-cca7999a293d.jpg')] bg-cover bg-center" />
-        <div className="mt-2 h-64 rounded-lg  bg-[url('/img/18d570f4-4dc1-4f34-af6b-d5a2d8795589.jpg')] bg-cover bg-center" />
+        <div className="mt-2 h-64 rounded-lg  bg-[url('/img/c7ff8faa-7bcf-47dc-a0b0-cca7999a293d.png')] bg-cover bg-center" />
+        <div className="mt-2 h-64 rounded-lg  bg-[url('/img/18d570f4-4dc1-4f34-af6b-d5a2d8795589.png')] bg-cover bg-center" />
         </div>
     </div>
   );
