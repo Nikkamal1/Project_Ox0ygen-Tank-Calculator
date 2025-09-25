@@ -1,3 +1,4 @@
+import TravelTimeCalculator from "./TravelTimeCalculator";
 const Form = ({ setCylinder, setOxygenRate, setPressure, handleCalculate, result }) => {
   return (
     <div className="font-sukhumvit flex flex-col items-center px-4 py-6 min-h-screen">
