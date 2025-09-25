@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://project-ox0ygen-tank-calculator-git-main-niks-projects-75457f79.vercel.app/sitemap.xml
